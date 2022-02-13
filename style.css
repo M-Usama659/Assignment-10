@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bgimg{
+    background-image: url("./images/container_bg.png");
+    width: 100%;
+}   
+.header1{
+    width: 100%;
+    background-color: #F5F5F5 !important;
+    display: flex;
+    justify-content: center;
+}   
+.header1 li{
+    list-style-type: none;
+    display: inline-block;
+}
+.border1{
+    border-right: 2px solid #DEDEDE;
+}
+.border2{
+    border: 5px solid #DEDEDE;
+}
+.header2{
+    background-color: #fff !important;
+    display: flex;
+    justify-content: center;
+}
+.header2 li{
+    list-style-type: none;
+    display: inline-block;
+}
+#h2:hover img{
+    background-color: #E3350D;
+}
+#h3:hover img{
+    background-color: #EE6B2F;
+}
+#h4:hover img{
+    background-color: #E6BC2F;
+}
+#h5:hover img{
+    background-color: #4DAD5B;
+}
+#h6:hover img{
+    background-color: #30A7D7;
+}
+#h7:hover img{
+    background-color: #FFFFFF;
+}
+.container{
+    padding-top: 10px;
+}
+.main{
+    margin: 0 17.5%;
+    width: 65%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    padding: 10px;
+}
+.box{
+    width: 578px;
+    border-radius: 5px;
+}
+.para{
+    text-align: center;
+    padding: 10px 30px;
+}
+.box h3, .box p{
+    background-color: #1847D7;
+    color: #fff;
+}
+.box h3{
+    font-size: 25px;
+    padding: 20px;
+}
+.box p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.box3{
+    border-radius: 5px;
+    background-color: #F88034;
+}
+.box3 img{
+    float: left;
+    margin-right: 20px;
+}
+.box3 p{
+    font-size: 25px;
+    height: 146.5px;
+    color: #fff;
+}
+.box2{
+    display: flex;
+    justify-content:space-between;
+}
+.box4{
+    margin-top: 15px;
+}
+.box5{
+    margin-top: 15px;
+}
+.heading{
+    margin-top: 40px;
+    margin-left: 230px;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+}
+.imgs{
+    border-radius: 0 0 5px 5px;
+}
+.footer{
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.footer>div{
+    width: 22%;
+}
+.f1 p{
+    color: #FFFFFF;
+    font-size: 15pt;
+}
+.f1 li{
+    margin-bottom: 10px;
+    color: #a7a7a4;
+}
+.f2{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0 2%;
+}
+.f3{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: smaller;
+}
+.f3 li{
+    list-style-type: none;
+    text-decoration: underline;
+}
+.f3 img{
+    float: left;
+    margin-bottom: 30px;
+}
+.f3 div{
+    padding-bottom: 40px ;
+}
